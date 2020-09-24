@@ -17,7 +17,7 @@ int main(){
     cin >> num;
 
     srand(seed);
-    for(int i=0; i<num; i++) cout << (rand()%max + 1) << "";
+    for(int i=0; i<num; i++) cout << (rand()%max + 1) << " ";
     cout << endl;
 }
 
